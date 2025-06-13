@@ -26,15 +26,6 @@ const result4 = isEven(3);
 console.log(result4);
 
 
-// 2.3 - Implement the function calcArrayAverage()
-// Name of the function: calcArrayAverage
-// Parameters:
-// numbersArr (an array of numbers)
-// Return value: should return a string or a number,
-// if the array is empty, return the message Please provide an array with at least one element.
-// if the array is not empty, return the average (i.e., the result of adding all the numbers and dividing by the number of elements in the array)
-//To calculate the sum of all numbers in the array, you can use the method reduce(). Then, divide the sum by the number of elements in the array and return the result.
-
 function calcArrayAverage( numbersArr: number[]) : string | number {
     if (numbersArr.length === 0) {
         return 'Please provide an array with at least one element'
